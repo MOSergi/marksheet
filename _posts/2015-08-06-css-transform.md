@@ -5,26 +5,26 @@ subtitle: "Fashioning unique shapes"
 section: css
 ---
 
-We've seen so far how CSS allows us to apply colors, set fonts, tweak the text settings, position elements, space them, decorate them, move them around.
+Hemos visto hasta ahora cómo CSS nos permite aplicar colores, establecer fuentes, ajustar la configuración del texto, colocar elementos, espaciarlos, decorarlos, moverlos.
 
-CSS **transforms** are a collection of _functions_ that allow to **shape elements** in particular ways:
+Las **transformaciones** CSS son una colección de _funciones_ que permiten **dar forma a elementos** de formas particulares:
 
-* **translate**: moves the element along up to 3 axis (x,y and z)
-* **rotate**: moves the element around a central point
-* **scale**: resizes the element
-* **skew**: distorts the element
+* **trasladar**: mueve el elemento a lo largo de hasta 3 ejes (x, y y z)
+* **rotar**: mueve el elemento alrededor de un punto central
+* **escala**: cambia el tamaño del elemento
+* **sesgar**: distorsiona el elemento
 
-### transform properties
+### transformar propiedades
 
-There are 3 CSS transform properties available:
+Hay 3 propiedades de transformación CSS disponibles:
 
-* `transform` defines which transform _function_ to use (translate, rotate, scale...)
-* `transform-origin` allows to modify the origin point of a transformation (works like [background positions](/css-background.html#background-position))
-* `transform-style` is for 3d settings
+* `transform` define qué función de transformación utilizar (traducir, rotar, escalar ...)
+* `transform-origin` permite modificar el punto de origen de una transformación (funciona como [background positions](/css-background.html#background-position))
+* `transform-style` es para configuraciones 3d
 
-Note that unlike `background` and `border`, `transform` is **not a shorthand property**.
+Tenga en cuenta que a diferencia de `background` y `border`, `transform` es **no es una propiedad taquigráfica**.
 
-We'll only use `transform` here.
+Solo usaremos `transform` aquí.
 
 #### Doesn't break the Flow
 
